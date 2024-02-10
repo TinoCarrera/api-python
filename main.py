@@ -12,7 +12,7 @@ def suma(a: Union[int, None] = None, b: Union[int, None] = None):
     if a and b:
         result = {"result": a + b}
     else:
-        result = {"message": "Debes enviar los parámetros 'a' y 'b'"}
+        result = {"message": "Debes enviar los parámetros 'a' y 'b' con los números a sumar"}
 
     return result
 
@@ -21,7 +21,7 @@ def resta(a: Union[int, None] = None, b: Union[int, None] = None):
     if a and b:
         result = {"result": a - b}
     else:
-        result = {"message": "Debes enviar los parámetros 'a' y 'b'"}
+        result = {"message": "Debes enviar los parámetros 'a' y 'b' con los números a restar"}
 
     return result
 
@@ -30,7 +30,7 @@ def multiplicacion(a: Union[int, None] = None, b: Union[int, None] = None):
     if a and b:
         result = {"result": a * b}
     else:
-        result = {"message": "Debes enviar los parámetros 'a' y 'b'"}
+        result = {"message": "Debes enviar los parámetros 'a' y 'b' con los números a multiplicar"}
 
     return result
 
@@ -41,6 +41,6 @@ def division(a: Union[int, None] = None, b: Union[int, None] = None):
     elif a and b:
         result = {"result": a / b}
     else:
-        result = {"message": "Debes enviar los parámetros 'a' y 'b'"}
+        result = {"message": "Debes enviar los parámetros 'a' y 'b' con los números a dividir"}
 
     return result
